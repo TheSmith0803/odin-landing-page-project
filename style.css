@@ -1,0 +1,60 @@
+@font-face {
+    font-family: typewriter;
+    src: url(type-machine.ttf);
+}
+
+html body {
+    background-color: cornflowerblue;
+    font-family: typewriter;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px;
+    gap: 32px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    border-bottom:#e5e7eb solid 1px;
+    height: 75px;
+    color: white;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding-left: 32px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

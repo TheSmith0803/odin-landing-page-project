@@ -35,6 +35,10 @@ a:hover {
     color: cornflowerblue;
 }
 
+/* top section 
+   right below
+*/
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -60,6 +64,8 @@ a:hover {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+/* underneath the header is hERE */
 
 .header-content {
     display: flex;

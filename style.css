@@ -13,6 +13,7 @@ html body {
 h2 {
     color: #e5e7eb;
     font-weight: 100;
+    text-decoration: underline;
 }
 
 ul,
@@ -33,6 +34,17 @@ a {
 
 a:hover {
     color: cornflowerblue;
+    
+}
+
+button {
+    background-color: cornflowerblue;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
 }
 
 /* top section 
@@ -70,21 +82,44 @@ a:hover {
 .header-content {
     display: flex;
     flex-direction: row;
+    flex: 1;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 
 .page-open {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    justify-content: center;
-    align-items: center;
+    max-width: 500px;
     text-align: center;
+    font-size: 24px;
 }
 
 .picme {
-    display: flex;
-    margin-top: 30px;
+    margin-top: 75px;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 50px;
+    background: black;
+    color: aliceblue;
+}
+
+.etcher-sc {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 300px;
+    font-size: 32px;
+}
+
+
+

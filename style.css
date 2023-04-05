@@ -107,7 +107,11 @@ button {
     margin-top: 200px;
     padding: 50px;
     background: black;
-    color: aliceblue;
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    outline: 0;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 70%);
 }
 
 .etcher-sc {

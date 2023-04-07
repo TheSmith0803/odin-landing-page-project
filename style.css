@@ -45,6 +45,7 @@ button {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 5px;
     font-family: typewriter;
     text-transform: uppercase;
     
@@ -114,6 +115,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 200px;
     padding: 50px;
     color: white;
@@ -124,7 +126,7 @@ button:hover {
     background-image: linear-gradient(black, rgb(0, 0, 52))
 }
 
-.etcher-sc {
+.etcher {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -133,6 +135,14 @@ button:hover {
     flex-wrap: wrap;
     max-width: 300px;
     font-size: 32px;
+}
+
+.altetcher {
+    color: cornflowerblue;
+    
+}
+
+.butts {
 }
 
 /*this is obvi the footer here*/

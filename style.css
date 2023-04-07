@@ -34,7 +34,6 @@ a {
 
 a:hover {
     color: cornflowerblue;
-    
 }
 
 button {
@@ -48,13 +47,20 @@ button {
     margin: 5px;
     font-family: typewriter;
     text-transform: uppercase;
+    outline: 1px solid rgb(255, 255, 255);
     
 }
 
 button:hover {
     color: white;
     background-color: rgb(0, 0, 53);
-    outline: 1px solid white;
+    outline: 2px solid white;
+    font-weight: bolder;
+}
+
+input {
+    border-radius: 50px;
+    border: 2px solid cornflowerblue;
 }
 
 /* top section 
@@ -142,14 +148,37 @@ button:hover {
     
 }
 
-.butts {
+.email-list {
+    
 }
 
 /*this is obvi the footer here*/
 
 .footer {
-    margin-top: 50px
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 10px;
+    gap: 10px;
+    background-color: black;
+    outline: 1px solid white;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 70%);
+    font-size: 50px;
 }
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+  }
+
+
+
+
 
 
 

@@ -143,6 +143,12 @@ textarea:focus, input:focus {
     background-image: linear-gradient(black, rgb(0, 0, 52))
 }
 
+.the-soundcloud:hover {
+    background-color: rgb(214, 139, 0);
+    color: black;
+    outline: 2px solid black;
+}
+
 .etcher {
     display: flex;
     text-align: center;

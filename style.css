@@ -61,6 +61,17 @@ button:hover {
 input {
     border-radius: 50px;
     border: 2px solid cornflowerblue;
+    width: 200px;
+}
+
+input, select, textarea{
+    color: white;
+    background: black;
+}
+
+textarea:focus, input:focus {
+    color: white;
+    background: black;
 }
 
 /* top section 
@@ -148,9 +159,32 @@ input {
     
 }
 
-.email-list {
-    
+.text-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.email-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.bio-input {
+    display: flex;
+    flex: 1 1 auto;
+    width: 500px;
+    min-width: 200px;
+    height: 350px;
+    background: black;
+    border-radius: 10px;
+}
+
+
 
 /*this is obvi the footer here*/
 

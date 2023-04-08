@@ -3,6 +3,11 @@
     src: url(type-machine.ttf);
 }
 
+@font-face {
+    font-family: groovy;
+    src: url(Royalacid.ttf);
+}
+
 html body {
     background-color: cornflowerblue;
     font-family: typewriter;

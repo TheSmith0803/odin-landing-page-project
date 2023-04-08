@@ -14,6 +14,9 @@ h2 {
     color: #e5e7eb;
     font-weight: 100;
     text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul,
@@ -38,17 +41,17 @@ a:hover {
 
 button {
     background-color: cornflowerblue;
+    text-align: center;
     border-radius: 20px;
     font-size: 16px;
     border: 0;
-    padding: 10px;
+    padding: 7px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 5px;
     font-family: typewriter;
     text-transform: uppercase;
     outline: 1px solid rgb(255, 255, 255);
-    
 }
 
 button:hover {
@@ -64,12 +67,13 @@ input {
     width: 200px;
 }
 
-input, select, textarea{
+textarea {
     color: white;
     background: black;
+    padding: 5px;
 }
 
-textarea:focus, input:focus {
+textarea:focus {
     color: white;
     background: black;
 }
@@ -87,6 +91,7 @@ textarea:focus, input:focus {
     outline: 0;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 70%);
     height: 75px;
+    max-height: fit-content;
     color: white;
     text-transform: uppercase;
 }
@@ -97,12 +102,15 @@ textarea:focus, input:focus {
     align-items: center;
     font-size: 24px;
     padding-left: 32px;
+    margin: auto;
 }
 
 .header-links {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 10px
 }
 
 /* underneath the header is hERE */
@@ -165,11 +173,23 @@ textarea:focus, input:focus {
     
 }
 
+.prompt {
+    font-size: large;
+}
+
 .text-boxes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.email-text {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .email-list {
@@ -178,16 +198,20 @@ textarea:focus, input:focus {
     justify-content: center;
     align-items: center;
     background: black;
+    text-align: left;
+    vertical-align: top;
+    border-radius: 5px;
+    resize: none;
 }
 
 .bio-input {
     display: flex;
-    flex: 1 1 auto;
     width: 500px;
     min-width: 200px;
     height: 350px;
     background: black;
-    border-radius: 10px;
+    border-radius: 5px;
+    resize: none;
 }
 
 
@@ -205,7 +229,7 @@ textarea:focus, input:focus {
     gap: 10px;
     background-color: black;
     outline: 1px solid white;
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 70%);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.7);
     font-size: 50px;
 }
 
@@ -215,10 +239,3 @@ textarea:focus, input:focus {
     margin: 5px 2px;
     color: white;
   }
-
-
-
-
-
-
-

@@ -7,13 +7,13 @@ html body {
     background-color: cornflowerblue;
     font-family: typewriter;
     margin: 0;
+    line-height: 1.5;
     padding: 0;
 }
 
 h2 {
-    color: #e5e7eb;
+    color: rgb(238, 238, 238);
     font-weight: 100;
-    text-decoration: underline;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,12 +26,13 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding-right: 16px;
     gap: 32px;
 }
 
 a {
-    color: white;
+    color: rgb(238, 238, 238);
     text-decoration: none;
 }
 
@@ -51,13 +52,13 @@ button {
     margin: 5px;
     font-family: typewriter;
     text-transform: uppercase;
-    outline: 1px solid rgb(255, 255, 255);
+    outline: 1px solid rgb(238, 238, 238);
 }
 
 button:hover {
-    color: white;
+    color: rgb(238, 238, 238);
     background-color: rgb(0, 0, 53);
-    outline: 2px solid white;
+    outline: 2px solid rgb(238, 238, 238);
     font-weight: bolder;
 }
 
@@ -68,13 +69,13 @@ input {
 }
 
 textarea {
-    color: white;
+    color: rgb(238, 238, 238);
     background: black;
     padding: 5px;
 }
 
 textarea:focus {
-    color: white;
+    color: rgb(238, 238, 238);
     background: black;
 }
 
@@ -90,10 +91,11 @@ textarea:focus {
     border-bottom:#e5e7eb solid 1px;
     outline: 0;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 70%);
-    height: 75px;
     max-height: fit-content;
-    color: white;
+    color: rgb(238, 238, 238);
     text-transform: uppercase;
+    min-height: 80px;
+    max-height: 300px;
 }
 
 .header-logo {
@@ -101,16 +103,17 @@ textarea:focus {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    padding-left: 32px;
+    padding:0 32px;
     margin: auto;
+    margin-top: 22px;
 }
 
 .header-links {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding:0 32px;
     margin: auto;
-    margin-bottom: 10px
 }
 
 /* underneath the header is hERE */
@@ -143,9 +146,9 @@ textarea:focus {
     text-align: center;
     margin-top: 200px;
     padding: 50px;
-    color: white;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    color: rgb(238, 238, 238);
+    border-top: 1px solid rgb(238, 238, 238);
+    border-bottom: 1px solid rgb(238, 238, 238);
     outline: 0;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.7);
     background-image: linear-gradient(black, rgb(0, 0, 52))
@@ -228,7 +231,7 @@ textarea:focus {
     padding: 10px;
     gap: 10px;
     background-color: black;
-    outline: 1px solid white;
+    outline: 1px solid rgb(238, 238, 238);
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.7);
     font-size: 50px;
 }
@@ -237,5 +240,5 @@ textarea:focus {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    color: white;
+    color: rgb(238, 238, 238);
   }

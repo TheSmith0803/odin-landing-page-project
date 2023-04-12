@@ -241,6 +241,15 @@ textarea:focus {
     font-size: 50px;
 }
 
+.second-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(cornflowerblue, black);
+    padding: 45px;
+    color: rgb(238, 238, 238);
+}
+
 .fa {
     text-align: center;
     text-decoration: none;
